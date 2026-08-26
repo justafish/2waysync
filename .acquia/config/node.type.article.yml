@@ -22,7 +22,7 @@ third_party_settings:
     unpublish_enable: false
     unpublish_required: false
     unpublish_revision: false
-name: 'Basic Article'
+name: 'Fancy Article'
 type: article
 description: null
 help: null
