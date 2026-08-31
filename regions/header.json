@@ -1,4 +1,9 @@
 {
   "status": true,
-  "elements": {}
+  "elements": {
+    "13142c41-9c0e-4453-a8e4-06a5e31f11e1": {
+      "type": "js.just",
+      "props": {}
+    }
+  }
 }
