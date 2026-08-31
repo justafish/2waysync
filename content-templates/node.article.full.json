@@ -1,0 +1,7 @@
+{
+  "label": "Blippidy content items — Full content view",
+  "entityType": "node",
+  "bundle": "article",
+  "viewMode": "full",
+  "elements": {}
+}
