@@ -1,0 +1,83 @@
+uuid: 125df397-8564-45b5-90b7-0fc686ee7e01
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+  module:
+    - acquia_dam
+    - acquia_optimize
+    - canvas
+    - config_translation
+    - content_moderation
+    - content_translation
+    - entity_clone
+    - filter
+    - jsonapi
+    - media
+    - node
+    - path
+    - redirect
+    - scheduler
+    - system
+    - taxonomy
+id: member
+label: Member
+weight: 2
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access jsonapi developer tools'
+  - 'access media overview'
+  - 'access menu overview'
+  - 'access taxonomy overview'
+  - 'administer redirects'
+  - 'authorize with acquia dam'
+  - 'clone node entity'
+  - 'clone taxonomy_term entity'
+  - 'create canvas_page'
+  - 'create content translations'
+  - 'create document media'
+  - 'create image media'
+  - 'create menu_link_content'
+  - 'create remote_video media'
+  - 'create url aliases'
+  - 'create video media'
+  - 'delete any document media'
+  - 'delete any image media'
+  - 'delete any remote_video media'
+  - 'delete any video media'
+  - 'delete canvas_page'
+  - 'delete content translations'
+  - 'delete menu_link_content'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit canvas_page'
+  - 'publish auto-saves'
+  - 'revert all revisions'
+  - 'revert any document media revisions'
+  - 'revert any image media revisions'
+  - 'revert any remote_video media revisions'
+  - 'scan acquia optimize'
+  - 'schedule publishing of nodes'
+  - 'take_ownership_on_clone node entity'
+  - 'translate any entity'
+  - 'translate configuration'
+  - 'update content translations'
+  - 'update menu'
+  - 'update menu_link_content'
+  - 'use text format filtered_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any document media revisions'
+  - 'view any image media revisions'
+  - 'view any remote_video media revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view scheduled content'
