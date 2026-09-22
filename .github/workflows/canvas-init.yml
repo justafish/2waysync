@@ -45,7 +45,7 @@ jobs:
           fi
 
       - name: Pull code from Acquia Source CMS
-        run: npx @drupal-canvas/cli@0.24.0 pull --yes
+        run: npx @drupal-canvas/cli@0.24.1 pull --yes
         env:
           CANVAS_SITE_URL:
             ${{ secrets[format('{0}CANVAS_SITE_URL',
