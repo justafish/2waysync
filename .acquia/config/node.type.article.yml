@@ -24,7 +24,7 @@ third_party_settings:
     unpublish_revision: false
 _core:
   default_config_hash: QLHd4bvNyfnOJebQJz1PjuZ8uVTQRfs6VAx9GwMQVQE
-name: Article
+name: Fancy Article
 type: article
 description: 'A content type for creating various types of articles.'
 help: null
