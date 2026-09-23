@@ -60,8 +60,8 @@ jobs:
         if: steps.check-secrets.outputs.secrets_configured == 'true'
         run: |
           set -euo pipefail
-          npx @drupal-canvas/cli@0.24.1 reconcile-media --yes
-          npx @drupal-canvas/cli@0.24.1 push --yes
+          npx @drupal-canvas/cli@0.20.1 reconcile-media --yes
+          npx @drupal-canvas/cli@0.20.1 push --yes
           git add .
           if git diff-index --quiet HEAD; then
             echo "No changes to commit."
