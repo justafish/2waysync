@@ -1,0 +1,16 @@
+{
+  "uuid": "f4b3b9c0-4f6b-4b6f-8c7b-6b5f3b7b8f49",
+  "title": "Not found",
+  "path": "/not-found",
+  "description": "",
+  "elements": {
+    "561fd5a0-ccac-498e-9853-ecc23f2d0df6": {
+      "type": "js.text",
+      "props": {
+        "text": "The requested page could not be found.",
+        "textSize": "normal",
+        "textColor": "dark"
+      }
+    }
+  }
+}

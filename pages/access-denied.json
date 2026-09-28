@@ -1,0 +1,16 @@
+{
+  "uuid": "20354d7a-e4fe-47af-8ff6-187bca92f3f8",
+  "title": "Access denied",
+  "path": "/access-denied",
+  "description": "",
+  "elements": {
+    "72478040-c929-4d4f-bca3-2b3ca22dd935": {
+      "type": "js.text",
+      "props": {
+        "text": "You are not authorized to access this page.",
+        "textSize": "normal",
+        "textColor": "dark"
+      }
+    }
+  }
+}
